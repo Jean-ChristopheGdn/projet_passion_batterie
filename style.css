@@ -63,7 +63,7 @@ html.nuit {
 /* ---- Main image ----- */
 .main-img {
     padding-top: 70px;
-    background: url(/ressources/drum.jpg)no-repeat right / cover fixed;
+    background: url("/ressources/drum.jpg")no-repeat right / cover fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -115,7 +115,7 @@ p {
 .img-pres {
     width: 50%;
     height: 500px;
-    background: url(/ressources/batterie-pres.jpg)no-repeat right / cover fixed;
+    background: url("/ressources/batterie-pres.jpg")no-repeat right / cover fixed;
 }
 
 /* ------- Fabrication ---------- */

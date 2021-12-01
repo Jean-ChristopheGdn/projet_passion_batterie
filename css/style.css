@@ -1,0 +1,217 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', 'sans-serif';
+}
+html {
+    background: #ffeca8;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+/* ------ Dark mode -------- */
+
+html.nuit {
+    background: #333;
+    color: white;
+}
+
+#btn-mode {
+    width: 50px;
+    padding-left: 30px;
+}
+#btn-dark-mode{
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    
+}
+
+/*---------  Navbar  ----------*/
+.navbar {
+    width: 100%;
+    height: 70px;                         
+    background-image: linear-gradient(to right, #16191d, #45505c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.menu {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a {
+    font-size: 19px;
+    text-align: center;
+    position: relative;  
+    font-weight: 700;
+    text-decoration: none;
+    color: #f1f1f1;   
+}
+.menu a:hover{
+    color: red;
+}
+/* ---- Main image ----- */
+.main-img {
+    padding-top: 70px;
+    background: url(/ressources/drum.jpg)no-repeat right / cover fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+h1 {
+    text-align: center;
+    padding-top: 200px;
+    color: #991212;
+    font-size: 50px;
+    font-family: 'Montserrat', 'sans-serif';
+}
+p {
+    text-align: center;
+}
+
+/*--------- Padding navbar ---------- */
+.presentation{
+    padding-top: 70px;
+}
+.why {
+    padding-top: 70px;
+}
+.composition {
+    padding-top: 70px;
+}
+
+/* ------- Présentation --------- */
+.presentation{
+    
+    display: flex;
+    flex-direction: row;
+}
+.pres {
+    width: 50%;
+    height: 500px;
+    padding: 20px 60px 20px 60px;
+}
+.pres p{
+    text-align: justify;
+    padding-top: 30px;
+}
+.pres h2 {
+    text-align: center;
+    border:1px solid black;
+    margin: 10px 0 10px 0;
+}
+.img-pres {
+    width: 50%;
+    height: 500px;
+    background: url(/ressources/batterie-pres.jpg)no-repeat right / cover fixed;
+}
+
+/* ------- Fabrication ---------- */
+
+
+.why h2 {
+    display: block;
+    width: 40%;
+    align-items: center;
+    font-size: 30px;
+    
+}
+.title-pq {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.title-pq h2 {
+    text-align: center;
+    border:1px solid black;
+}
+.txt-pq {
+    display: flex; 
+    text-align: center;
+    align-items: center;
+}
+.txt-pq p {
+    width: 50%;
+    padding: 30px 50px 30px 50px;
+    text-align: justify;
+}
+.txt-pq ul {
+    width: 50%;
+    text-align: left;
+    padding: 30px 50px 30px 50px;
+}
+.txt-wood h3 {
+    padding: 30px 0 30px 0;
+    font-size: 20px;
+    text-align: left;
+}
+.txt-wood {
+    text-align: center;
+    padding: 0px 50px 0 50px;
+}
+/* ------- Composition ---------- */
+.title-compo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-compo h2 {
+    width: 50%;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    border:1px solid black;
+}
+.compo-drum-kit {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.list-compo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.list-compo ul {
+    text-align: center;
+}
+.list-compo li {
+    display: flex;
+}
+.list-compo li p {
+    padding-left: 30px;
+}
+.img-compo {
+   width: 50%;
+}
+.img-compo img {
+    align-items: center;
+    margin: auto;
+}
+
+/* -------- Footer -------- */
+footer {
+    text-align: center;
+    padding-top: 20px;
+}
+footer p {
+    background-color: #333;
+    color: white;
+}
